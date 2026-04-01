@@ -32,6 +32,8 @@ This database was found on a MySQL server at KalyHost.com, a hosting provider ru
 
 9. **[Historical Significance](09_historical_significance.md)** -- Context within the broader Silk Road timeline, connections to the criminal investigation, the altoid/Ulbricht link, and what this genesis-period snapshot reveals about the seeds of the site's eventual downfall.
 
+10. **[Private Messages Deep Dive](10_private_messages_deep_dive.md)** -- Analysis of seller and buyer inboxes beyond the admin's. Includes altoid's failed drug deal, the admin's dispute with 1UP of Canada over GPG encryption, the maxvendor reliability crisis, email/IP address leaks in messages, and pink's documented search for heroin.
+
 ## Key Findings
 
 - **The `altoid` account (UID 2)** is the second user ever registered, 5 days after the admin -- the same username Ulbricht used to promote Silk Road on clearnet forums, which the FBI later traced back to him.
@@ -40,6 +42,8 @@ This database was found on a MySQL server at KalyHost.com, a hosting provider ru
 - **The site had basic web vulnerabilities** (SQL injection, XSS, authentication bypass) during its first weeks.
 - **One user (d72sh) prophetically warned** that clearnet forum activity could be traced via subpoena -- exactly the technique the FBI used years later.
 - **Traffic grew from ~700 to 6,000+ page views/day** in just three weeks, foreshadowing the explosive growth to come.
+- **altoid (Ulbricht) tried and failed to fulfill a drug order**, canceling with the excuse that he "ran into a sketchy situation" -- suggesting he was sourcing locally, not growing as claimed.
+- **The admin dismissed GPG encryption as "redundant"** when a vendor required it for shipping addresses, calling Tor's transport encryption sufficient. The plaintext addresses in this database prove him wrong.
 
 ## Notes
 
